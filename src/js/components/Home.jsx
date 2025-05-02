@@ -1,10 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import Jumbotron from "./Jumbotron";
-import Navbar from "./Navbar";
-import CardRow from "./CardRow";
-import Footer from "./Footer";
+import PokemonHeader from "./PokemonHeader";
 
 
 
@@ -12,10 +9,7 @@ import Footer from "./Footer";
 const Home = () => {
 	return (
 		<div>
-	    <Navbar/>
-		<Jumbotron/>
-		<CardRow/>
-		<Footer />
+	  <PokemonHeader/>
 		</div>
 	)
 }
